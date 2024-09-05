@@ -11,9 +11,9 @@ int main(void)
     int inum;   
     float fnum;
 
-    scanf("%c", &character);
-    scanf("%d", &inum);
-    scanf("%f", &fnum);
+    scanf("%c", &character);     //문자 
+    scanf("%d", &inum);          //정수
+    scanf("%f", &fnum);          //실수
 
     printf("%c, %d, %f \n", character, inum, fnum);
 

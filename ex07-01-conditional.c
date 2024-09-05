@@ -57,7 +57,7 @@ int main(void)
          printf("num is small than 3!\n");      //참이 아니라서 아무것도 안 나옴
     }
 
-    if(num ==3)
+    if(num == 3)
         printf("num is 3!\n");                  //참 -> num is 3!
 
 

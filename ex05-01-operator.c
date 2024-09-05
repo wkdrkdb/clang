@@ -46,22 +46,25 @@ int main(void)
     printf("num3 += 3의 결과: %d\n", num3);
     printf("num4 *= 4의 결과: %d\n", num4);
 
+    printf("\n");
 
     //비교연산자
+    printf("비교연산자\n");
+
     int a = 10, b= 11;
     
-    printf("a == b: %d\n", a == b);
-    printf("a > b: %d\n", a > b);
-    printf("a < b: %d\n", a < b);
-    printf("a >= b: %d\n", a >= b);
-    printf("a <= b: %d\n", a <= b);
-    printf("a != b: %d\n", a != b);
+    printf("a == b: %d\n", a == b);         // 0
+    printf("a > b: %d\n", a > b);           // 0
+    printf("a < b: %d\n", a < b);           // 1 
+    printf("a >= b: %d\n", a >= b);         // 0
+    printf("a <= b: %d\n", a <= b);         // 1
+    printf("a != b: %d\n", a != b);         // 1
     
     // 0=거짓 1=참
 
     int result = a == b;
 
-    printf("result: %d\n", result);
+    printf("result: %d\n", result);         // 0
 
 
    return 0;

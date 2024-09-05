@@ -42,6 +42,8 @@ int main(void)
         이스케이프 시퀸스의 \ 기호는
         글꼴에 따라 ￦ 기호로 표현될 수 있다
     */
+
+
     printf("\"I am a boy. \"\n");
     printf("I am a \'boy\'.\n");
     printf("I\tam\ta\tboy.\n");
@@ -55,7 +57,7 @@ int main(void)
     printf("%d\n", cnum);
     printf("%d\n", u_cnum);
 
-    // 형식무낮 예)
+    // 형식문자 예)
 
     char character = 'X';
     int inumber = 92;

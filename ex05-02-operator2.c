@@ -19,7 +19,7 @@ int main(void)
     printf("1) result: %d\n", result);
 
 
-    result = num1 == 20 && num2 == 10;      // num1 = 20 (참), num2 = 10 (참) >> 1 && 1
+    result = num1 == 20 && num2 == 10;      // num1 = 20 (참), num2 = 10 (참) --> 1 && 1
     printf("2) result: %d\n", result);
 
 
