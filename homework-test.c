@@ -4,13 +4,19 @@ int main(void)
 {
     for(int i = 0; i < 4; i++)
     {
-
-        for(int j = 0; j < i+1; j++)
+     
+        
+         for(int a = 3; a > i; a--)
         {
-
-            printf("*");
-
+            printf(" ");
         }
+
+
+        for(int j = 0; j <= i; j++)
+        {
+            printf("*");
+        }
+
 
 
         printf("\n");
