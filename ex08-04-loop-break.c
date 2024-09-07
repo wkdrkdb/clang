@@ -11,6 +11,7 @@ int main(void)
     int num = 0;
     while(1)
     {
+        
         printf("-1 입력시 종료: ");
         scanf("%d", &num);
         if(num == -1) break;
