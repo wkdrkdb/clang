@@ -16,6 +16,9 @@ int main(void)
         scanf("%d", &num);
 
         if(num == -1) break;
+
+        if(num == -1) break;
+
         printf("%d을(를) 입력하셨네요.\n", num);
 
     }
