@@ -32,3 +32,54 @@
 
 */
 
+#include <stdio.h>
+
+int main(void)
+{
+    for(int i = 1; i <= 9; i++)
+    {
+        for(int j = 2; j <= 4; j++)
+        {
+          printf("%d x %d = %d\t", j, i, j * i);
+        }
+        
+        printf("\n");
+
+    }    
+
+
+
+        printf("\n");
+
+
+
+    for(int i = 1; i <= 9; i++)
+    {
+        for(int j = 5; j <= 7; j++)
+        {
+        printf("%d x %d = %d\t", j, i, j * i);
+        }
+
+        printf("\n");
+        
+    }
+
+
+
+        printf("\n");
+
+
+
+    for(int i = 1; i <= 9; i++)
+    {
+        for(int j = 8; j <= 9; j++)
+        {
+        printf("%d x %d = %d\t", j, i, j * i);
+        }
+
+        printf("\n");
+        
+    }
+
+    return 0;
+}
