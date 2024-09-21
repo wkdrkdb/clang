@@ -18,6 +18,7 @@
 29      23      17      11      5
 6       12      18      24      30      36
 43      37      31      25      19      13      7
+
 14      20      26      32      38      44
 45      39      33      27      21
 28      34      40      46
@@ -26,3 +27,85 @@
 49                                                      
 
 */
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    int array[7][7];
+
+    for(int i = 0; i < 7; i++)
+    {
+        for(int j = 0; j < 7; j++)
+        {
+            array[i][j] = j + 1 + (i * 7);
+
+            printf("%d ", array[i][j]);
+
+        }
+
+            printf("\n");
+
+
+    }
+
+
+
+
+
+    printf("\n");
+
+
+
+
+    
+    for(int i = 0; i < 13; i++)
+    {
+        if(i < 7)
+        {
+
+            for(int j = 0; j < i + 1; j++)
+            {
+                if(i % 2 == 0)
+                {
+                    printf("%d\t", array[i-j][j]);
+                }
+
+                else
+                {
+                    printf("%d\t", array[j][i-j]);
+                }            
+            }
+
+       }
+
+
+
+        else
+        {
+
+            for(int j = 0; j < 13 - i; j++)
+            {
+                if(i % 2 == 0)
+                {
+                    printf("%d\t", array[6-j][i-6+j]);
+                }
+
+                else
+                {
+                    printf("%d\t", array[6-j][i-6+j]);
+                }
+            }
+
+        }
+
+            printf("\n");
+
+    }
+
+
+
+
+return 0;
+}
